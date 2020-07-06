@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- Оболочка документа -->
+<html lang="ru">
+
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+    <title>Главная</title>
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <link rel="shortcut icon" href="img/icons/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!-- ОБОЛОЧКА -->
+    <div class="wrapper">
+        <!-- @import "header.kit" -->
+
+        <section class="section-why">
+            <div class="container">
+                <div class="wrapper-why">
+                    <h2 class="title-why">Почему именно мы?</h2>
+                    <div class="why">
+                        <div class="why__item">
+                            <h3 class="why__title"><span><img src="img/icons/Vector5.png" alt=""></span><span>1 100</span></h3>
+                            <h4 class="why__subtitle">ждут нас</h4>
+                            <p class="why__text">Мы приложение которое начинает работает с 2020 года и у нас уже есть клиенты. Присоединяйся!</p>
+                        </div>
+                        <div class="why__item">
+                            <h3 class="why__title"><img src="img/icons/problem.png" alt=""></h3>
+                            <h4 class="why__subtitle">без проблем</h4>
+                            <p class="why__text">Найдите себе партнёра по вашим желаниям. Выберите предпочтения и мы найдём для вас варианты.</p>
+                        </div>
+                        <div class="why__item">
+                            <h3 class="why__title"><img src="img/icons/anon.png" alt=""></h3>
+                            <h4 class="why__subtitle">анонимно</h4>
+                            <p class="why__text">Всё что понадобиться  для регистрации это ваша почта. Больше  ничего не нужно. Просто наслаждайтесь!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-content">
+            <div class="container ">
+                <div class="main-content">
+                    <div class="wrapper-bg2">
+                        <img src="img/bg2.png" alt="">
+                    </div>
+                    <div class="wrapper-mockups">
+                        <img src="img/mockups.png" alt="">
+                    </div>        
+                    <div class="content">
+                        <h2 class="content__title"><span>Вы можете</span> подключить партнёра</h2>
+                        <p class="content__text">У нас вы сможете разнообразить свою половую жизнь с вашим партнёром. Просто добавляйте его и следите за предпочтениями друг друга. При изменении вы узнаете первым.</p>
+                        <button class="content-btn">Хочу попробовать</button>
+                    </div>
+                </div>
+                <div class="main-content2">
+                    <div class="wrapper-bg3">
+                        <img src="img/bg3.png" alt="">
+                    </div>
+                    <div class="wrapper-mockups2">
+                        <img src="img/mockups2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h2 class="content__title"><span>Найди себе</span>  партнёра по предпочтениям</h2>
+                        <p class="content__text">Приватный способ заняться любовью и попробовать всё чего хотел с людьми поблизости. У вас есть возможность сделать партнёрский профиль. Cледите за предпочтениями друг друга. При изменении вы узнаете первым.</p>
+                        <h3 class="content__subtitle">Оставляйте свою почту и вы первыми узнаете когда мы выпустимся</h3>
+                        <form action="">
+                            <div class="wrapper-form">
+                                <input type="text" class="form-input" id="email2" placeholder="kalinova_ann@gmail.com">
+                                <button class="form-btn2">Отправить</button>
+                                <div class="form-message2" id="error-login2"></div>
+                            </div>        
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- @import "footer.kit" -->
+    </div>
+    <!-- попап -->
+    <div class="popup js-popup main-popup" data-id-popup="popup-0">
+        <div class="popup__opas"></div>
+        <div class="popup__wrapp js-popup__wrapp">
+            <div class="popup-container">
+                <div class="wrapper-logo3">
+                    <img src="img/logo.png" alt="" class="header__logo">
+                </div>
+                <div class="wrapper-popup-text">
+                    <h2 class="popup__title">18+</h2>
+                    <p class="popup__text">Вам уже исполнилось 18?</p>
+                </div>
+                <div class="popup-buttons">
+                    <button class="popup-btn js-popup__close">Да</button>
+                    <button class="popup-btn">Нет</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- кнопка прокрутки вверх -->
+    <!-- <div class="srolles-top js-up">
+        <button class="srolles-top__btn js-srolles-top"></button>
+    </div> -->
+    <!-- Подключеине скриптов -->
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

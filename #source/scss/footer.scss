@@ -1,0 +1,85 @@
+.wrapper-logo2{
+    max-width: 170px;
+    margin-bottom: 30px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social{
+    display: flex;
+    padding-bottom: 57px;
+}
+.social-text{
+    padding-top: 5px;
+}
+.wrapper-soc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper-soc:not(:last-child){
+    margin-right: 25px;
+}
+.footer{
+    &__text{
+        color: #333333;
+        letter-spacing: 0.14px;
+        line-height: 19.81px;
+        padding-bottom: 6px;
+    }
+    &__title{
+        color: #782fef;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 0.23px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+}
+.wrapper-icons{
+    display: flex;
+    justify-content: center;
+}
+.icon-facebook{
+    width: 10px;
+    height: 16px;
+}
+.icon-ok{
+    width: 16px;
+    height: 16px;
+}
+.icon-insta{
+    width: 16px;
+    height: 15px;
+}
+.footer-end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 38px;
+    .copy{
+        color: #333333;
+        font-size: 20px;
+        line-height: 45px;
+        letter-spacing: 0.23px;
+        font-weight: bold;
+    }
+    .save{
+        color: #333333;
+        line-height: 19.81px;
+        letter-spacing: 0.14px;
+    }
+}
+.footer-bottom{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.fb__item{
+    flex: 0 0 calc(100%/3);
+}
+.select-footer{
+    justify-content: flex-end;
+    align-items: center;
+}
